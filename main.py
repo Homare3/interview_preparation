@@ -98,7 +98,4 @@ elif choice == "対策すべき質問を見る":
             save_default_list(st.session_state.unconfident_questions)
             st.success("全ての対策リストを削除しました。")
     else:
-        st.info("現在、対策すべき質問はありません。")
-
-
-       
+        st.info("現在、対策すべき質問はありません")
