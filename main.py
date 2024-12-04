@@ -100,14 +100,5 @@ elif choice == "対策すべき質問を見る":
     else:
         st.info("現在、対策すべき質問はありません。")
 
-# 対策リストをクリアするページ
-elif choice == "対策リストをクリア":
-    st.header("対策リストをクリア")
-    st.warning("この操作は全ての対策リストを削除します。元に戻せません。")
 
-    if st.button("全ての対策リストを削除"):
-        
-        st.session_state.unconfident_questions = []
-        save_default_list(st.session_state.unconfident_questions)
-        st.success("全ての対策リストを削除しました。")
        
