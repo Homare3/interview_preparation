@@ -49,7 +49,7 @@ if 'current_question' not in st.session_state:
 
 # サイドバーのメニュー
 st.sidebar.title("メニュー")
-options = ["質問に答える", "対策すべき質問を見る", "対策リストをクリア"]
+options = ["質問に答える", "対策すべき質問を見る"]
 choice = st.sidebar.radio("選択してください", options)
 
 # 質問に答えるページ
